@@ -1,3 +1,93 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+## Basic Configuration
+
+baseurl = "http://localhost"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Soumil Roy"
+title = "Cool SSG Site"
+
+theme = "portfolio-theme"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Soumil Roy"
+intro = "Professional Full Stack Developer"
+description = "Yo description here"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "soumilroy"
+instagram = "soumilroy"
+xing = "soumilroy"
+linkedin = "soumilroy"
+twitter = "soumilroy"
+facebook = "soumilroy"
+google = "soumilroy"
+googlescholar = "<account_id>"
+stackoverflow = "soumilroy"
+lastfm = "soumilroy"
+goodreads = "soumilroy"
+gitlab = "soumilroy"
+bitbucket = "soumilroy"
+fivehundredpx = "soumilroy"
+flickr = "soumilroy"
+foursquare = "soumilroy"
+hackernews = "soumilroy"
+kickstarter = "soumilroy"
+patreon = "soumilroy"
+pintrest = "soumilroy"
+steam = "soumilroy"
+reddit = "soumilroy"
+snapchat = "soumilroy"
+youtube = "channelid"
+keybase = "soumilroy"
+twitch = "soumilroy"
+soundcloud = "soumilroy"
+tumblr = "soumilroy"
+strava = "soumilroy"
+skype = "soumil.roy"
+email = "hello@soumilroy.com"
+
+## Extras
+[params.extra]
+copyright = "© 2021. Soumil Roy. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
